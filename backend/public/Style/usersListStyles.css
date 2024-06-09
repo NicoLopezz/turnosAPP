@@ -1,0 +1,53 @@
+/* styles.css */
+
+/* Estilos opcionales */
+body {
+    font-family: Arial, sans-serif;
+    /* margin: 0; */
+    /* padding: 0; */
+    background-image: url(../imgs/imgTrees.jpg);
+    height: 100vh;
+    background-position: center;
+    display: grid; /* Cambiar de grid a flex */
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #ffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: grid;
+    /* grid-template-columns: 10px; */
+    /* gap: 20px; */
+    justify-items: center;
+    width: 250px;
+}
+
+.card {
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(29, 235, 10, 0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    /* width: 90%; */
+    margin-top: 15px;
+    /* margin-right: -auto; */
+    margin: 20px;
+}
+
+.card h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.card p {
+    margin: 0;
+    font-size: 16px;
+    color: #666
+}
